@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        nav a {
+            color: rgb(152, 112, 112);
+            font-size: 1.2em;
+            margin-left: 50px;
+            text-decoration: none;
+            font-family: 'Roboto', monospace;
+        }
+
+        .font_family {
+            font-family: 'Roboto', monospace;
+        }
+
+        .todos {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: rgb(152, 112, 112);
+            font-size: 20px;
+        }
+
+        .task {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border: 5px solid rgb(195, 152, 152);
+            background: rgb(241, 229, 209);
+            padding: 2px;
+            margin: 10px 0;
+        }
+
+        .task-details {
+            color: rgb(195, 152, 152);
+            margin-left: 20px;
+            flex-grow: 1;
+        }
+
+        .task-title {
+            color: rgb(152, 112, 112);
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .task-checkbox {
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+
+        .task-checkbox input {
+            width: 20px;
+            height: 20px;
+        }
+
+        .new_task {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: rgb(152, 112, 112);
+            font-size: 20px;
+        }
+
+        .task-actions{
+            margin-bottom:10px;
+            margin-right: 10px;
+            flex-direction: column;
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <a href="{{ url_for('index') }}">Your Tasks</a>
+    <a href="{{ url_for('create') }}">Create New Task</a>
+</nav>
+<hr>
+<div class="content">
+    {% block content %} {% endblock %}
+</div>
+</body>
+</html>
