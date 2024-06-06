@@ -11,11 +11,10 @@ This project aims to provide a user-friendly interface for creating, updating, a
 ensuring users stay organized and productive.
 
 ## Images of the application:
-
-![](/Users/justynafajfer/Desktop/Zrzut ekranu 2024-06-7 o 00.46.17.png)
-![](/Users/justynafajfer/Desktop/Zrzut ekranu 2024-06-7 o 00.47.58.png)
-![](/Users/justynafajfer/Desktop/Zrzut ekranu 2024-06-7 o 00.47.17.png)
-![](/Users/justynafajfer/Desktop/Zrzut ekranu 2024-06-7 o 00.47.04.png)
+![Zrzut ekranu 2024-06-7 o 00 46 17](https://github.com/justyna0614/PPY_final_project/assets/61552460/8e65b0e8-d3da-4dde-9d6e-8507618df0b2)
+![Zrzut ekranu 2024-06-7 o 00 47 58](https://github.com/justyna0614/PPY_final_project/assets/61552460/a4ff1e2b-4a5c-4a73-a083-b5747cd33868)
+![Zrzut ekranu 2024-06-7 o 00 47 17](https://github.com/justyna0614/PPY_final_project/assets/61552460/8d15956b-33f8-44be-abec-a7d3ed1154fe)
+![Zrzut ekranu 2024-06-7 o 00 47 04](https://github.com/justyna0614/PPY_final_project/assets/61552460/49b1c08c-ee66-4efc-b879-5908c31b216d)
 
 ## Technologies
 Project is created with:
