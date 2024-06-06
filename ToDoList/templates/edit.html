@@ -1,11 +1,11 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <div class="todos">
-        <h1>{% block title %} Editing a task {% endblock %}</h1>
+    <div class="todos font_family">
+        <h1>{% block title %} Edit task {% endblock %}</h1>
     </div>
     <form method="post">
-        <div class="new_task">
+        <div class="new_task font_family">
             <p>
                 <label for="title">Title</label>
                 <input type="text" name="title" placeholder="{{ task.title }}">
